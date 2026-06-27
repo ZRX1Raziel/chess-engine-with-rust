@@ -1,0 +1,12 @@
+[package]
+authors = ["GaggiX <fedegaggix@gmail.com>"]
+edition = "2018"
+name = "chess_engine2"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0.38"
+
+[[bin]]
+name = "uci"
+path = "src/bin/uci.rs"
